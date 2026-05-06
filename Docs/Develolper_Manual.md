@@ -1,6 +1,7 @@
 # How to install your application and all dependencies
 Requirements before running the project, install:
 - Node.js and npm (which comes with Node.js)
+
 Then open your terminal in the project folder and run:
 - npm install express axios cors @supabase/supabase-js
 
