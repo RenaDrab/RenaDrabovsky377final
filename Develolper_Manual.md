@@ -15,6 +15,7 @@ TOKEN RECEIVED
 TOKEN: “token it gives you”
 
 If you open Final_Project_Rena.html in a live server and input a valid zipcode, item name and category you will see:
+
 ROUTE HIT
 LOCATION ID: 09700373
 PRODUCT COUNT: 10
