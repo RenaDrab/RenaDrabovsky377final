@@ -1,29 +1,28 @@
 # How to install your application and all dependencies
-- Requirements before running the project, install:
-  - Node.js and npm (which comes with Node.js)
-- Then open your terminal in the project folder and run:
-  - npm install express axios cors @supabase/supabase-js
+Requirements before running the project, install:
+- Node.js and npm (which comes with Node.js)
+Then open your terminal in the project folder and run:
+- npm install express axios cors @supabase/supabase-js
 
 # How to run your application on a server
 To start the backend server, run this in the terminal: 
-node server.js 
+- node server.js 
 If everything is correct you will see: 
-SERVER FILE LOADED
-Server running on port 3000
-GETTING NEW TOKEN...
-TOKEN RECEIVED
-TOKEN: “token it gives you”
+- SERVER FILE LOADED
+- Server running on port 3000
+- GETTING NEW TOKEN...
+- TOKEN RECEIVED
+- TOKEN: “token it gives you”
 
 If you open Final_Project_Rena.html in a live server and input a valid zipcode, item name and category you will see:
-
-ROUTE HIT
-LOCATION ID: 09700373
-PRODUCT COUNT: 10
-FORMATTED LENGTH: 10
-  {
-    id: 685,
-    created_at: '2026-05-05T22:58:49.170469+00:00',
-    zipcode: '20852',
+- ROUTE HIT
+- LOCATION ID: 09700373
+- PRODUCT COUNT: 10
+- FORMATTED LENGTH: 10
+-   {
+-     id: 685,
+-     created_at: '2026-05-05T22:58:49.170469+00:00',
+-     zipcode: '20852',
     item_name: "Dave's Killer Bread Organic Thin Sliced Good Seed Whole Grain Bread",
     brand: "Dave's Killer Bread",
     calories: 70,
