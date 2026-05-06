@@ -19,8 +19,7 @@ If you open Final_Project_Rena.html in a live server and input a valid zipcode, 
 - LOCATION ID: 09700373
 - PRODUCT COUNT: 10
 - FORMATTED LENGTH: 10
--   {
--     id: 685,
+- > id: 685,
 -     created_at: '2026-05-05T22:58:49.170469+00:00',
 -     zipcode: '20852',
     item_name: "Dave's Killer Bread Organic Thin Sliced Good Seed Whole Grain Bread",
@@ -36,7 +35,7 @@ If you open Final_Project_Rena.html in a live server and input a valid zipcode, 
     saturated_fat: null,
     store_name: null,
     nutritional_rating: null
-  }
+  } "
 
 # How to run any tests you have written for your software
 I have been using terminal tests to run endpoints to see exactly what is working and what is not. 
