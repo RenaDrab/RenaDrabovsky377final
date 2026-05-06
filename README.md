@@ -1,6 +1,6 @@
 # RenaDrabovsky377final
 Final project for 377 - Mindful Bites
-#Mindful Bites
+# Project Title
 Mindful Bites
 
 # Description of Project
