@@ -40,14 +40,17 @@ If you open Final_Project_Rena.html in a live server and input a valid zipcode, 
      
 # How to run any tests you have written for your software
 I have been using terminal tests to run endpoints to see exactly what is working and what is not. 
+
 To test product fetch in a web browser type:
 - http://localhost:3000/products
 
 It should give you a list of products if it's working and an error code if it's not. 
+
 To test Kroger API and Supabase in a web browser type:
 - http://localhost:3000/fetch-and-save?zipcode=20852&item=bread&category=Organic 
 
 It should give you a list of products if it's working and an error code if it's not.
+
 To test questions AP, in a web browser type:
 - http://localhost:3000/question 
 
