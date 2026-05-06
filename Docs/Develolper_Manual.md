@@ -8,6 +8,7 @@ Then open your terminal in the project folder and run:
 # How to run your application on a server
 To start the backend server, run this in the terminal: 
 - node server.js 
+
 If everything is correct you will see: 
 - SERVER FILE LOADED
 - Server running on port 3000
@@ -41,12 +42,15 @@ If you open Final_Project_Rena.html in a live server and input a valid zipcode, 
 I have been using terminal tests to run endpoints to see exactly what is working and what is not. 
 To test product fetch in a web browser type:
 - http://localhost:3000/products
+
 It should give you a list of products if it's working and an error code if it's not. 
 To test Kroger API and Supabase in a web browser type:
 - http://localhost:3000/fetch-and-save?zipcode=20852&item=bread&category=Organic 
+
 It should give you a list of products if it's working and an error code if it's not.
 To test questions AP, in a web browser type:
 - http://localhost:3000/question 
+
 It should give you a list of questions and answers if it's working and an error code if it's not.
 
 In the live server you can test items like bread, eggs and milk with the zipcode 20852. This should 100% give you the correct information displayed on the screen. If nothing is displayed you can go back to your terminal where node server.js is running and it will tell you exactly what type of code you are getting whether that is 401 api or 500 server. If you use a nonvalid zipcode it will say zipcode:undefined in the terminal. 
